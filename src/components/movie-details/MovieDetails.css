@@ -1,0 +1,24 @@
+.modal-details-wrapper {
+  padding-top: 30px;
+  width: 290px;
+}
+
+.column-one {
+  width: 90px;
+  display: inline-block;
+  padding: 5px 0;
+  vertical-align: top;
+}
+
+.column-two {
+  padding: 5px 0;
+  width: calc(100% - 90px);
+  display: inline-block;
+  word-break: break-all;
+}
+
+@media (min-width: 768px) {
+  .modal-details-wrapper {
+    width: 600px;
+  }
+}
